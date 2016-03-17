@@ -1,0 +1,49 @@
+ALTER TABLE LVE_OrderPrePayShedule ADD CONSTRAINT FK_OrderPrePayShedule_Order FOREIGN KEY(C_Order_ID)
+REFERENCES C_Order (C_Order_ID)
+ON UPDATE CASCADE ON DELETE CASCADE;
+
+ALTER TABLE LVE_OrderPrePayShedule ADD CONSTRAINT FK_OrderPrePayShedule_PaySchedule FOREIGN KEY(C_PaySchedule_ID)
+REFERENCES C_PaySchedule (C_PaySchedule_ID)
+ON UPDATE CASCADE ON DELETE RESTRICT;
+
+--	Add Constraint of table Payment Request
+ALTER TABLE LVE_PaymentRequest ADD CONSTRAINT FK_LVE_PaymentRequest_C_Charge FOREIGN KEY (C_Charge_ID)
+	REFERENCES C_Charge(C_Charge_ID) 
+	ON UPDATE CASCADE 
+	ON DELETE RESTRICT;
+
+ALTER TABLE LVE_PaymentRequest ADD CONSTRAINT FK_LVE_PaymentRequest_C_Currency FOREIGN KEY (C_Currency_ID)
+	REFERENCES C_Currency(C_Currency_ID) 
+	ON UPDATE CASCADE 
+	ON DELETE RESTRICT;
+
+ALTER TABLE LVE_PaymentRequest ADD CONSTRAINT FK_LVE_PaymentRequest_C_DocType FOREIGN KEY (C_DocType_ID)
+	REFERENCES C_DocType(C_DocType_ID) 
+	ON UPDATE CASCADE 
+	ON DELETE RESTRICT;
+
+--	Add Constraint of table Payment Request Line
+ALTER TABLE LVE_PaymentRequestLine ADD CONSTRAINT FK_LVE_PaymentRequestLine_C_Invoice FOREIGN KEY (C_Invoice_ID)
+	REFERENCES C_Invoice(C_Invoice_ID) 
+	ON UPDATE CASCADE 
+	ON DELETE RESTRICT;
+
+ALTER TABLE LVE_PaymentRequestLine ADD CONSTRAINT FK_LVE_PaymentRequestLine_C_Order FOREIGN KEY (C_Order_ID)
+	REFERENCES C_Order(C_Order_ID) 
+	ON UPDATE CASCADE 
+	ON DELETE RESTRICT;
+
+ALTER TABLE LVE_PaymentRequestLine ADD CONSTRAINT FK_LVE_PaymentRequestLine_C_PaySelectionLine FOREIGN KEY (C_PaySelectionLine_ID)
+	REFERENCES C_PaySelectionLine(C_PaySelectionLine_ID) 
+	ON UPDATE CASCADE 
+	ON DELETE RESTRICT;
+
+ALTER TABLE LVE_PaymentRequestLine ADD CONSTRAINT FK_LVE_PaymentRequestLine_GL_JournalLine FOREIGN KEY (GL_JournalLine_ID)
+	REFERENCES GL_JournalLine(GL_JournalLine_ID) 
+	ON UPDATE CASCADE 
+	ON DELETE RESTRICT;
+
+ALTER TABLE LVE_PaymentRequestLine ADD CONSTRAINT FK_LVE_PaymentRequestLine_LVE_PaymentRequest FOREIGN KEY (LVE_PaymentRequest_ID)
+	REFERENCES LVE_PaymentRequest(LVE_PaymentRequest_ID) 
+	ON UPDATE CASCADE 
+	ON DELETE CASCADE;

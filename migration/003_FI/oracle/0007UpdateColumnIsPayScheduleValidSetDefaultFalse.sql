@@ -1,0 +1,5 @@
+-- 18/12/2013 09:58:47 AM VET
+-- CGI Anca
+UPDATE AD_Column SET DefaultValue='N',Updated=TO_DATE('2013-12-18 09:58:47','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=1013264 WHERE AD_Column_ID=3000255
+;
+

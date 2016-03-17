@@ -1,0 +1,45 @@
+-- 15/07/2014 10:13:18 PM CEST
+-- LVE-HR
+UPDATE AD_Field SET DisplayLogic=NULL, IsMandatory=NULL,Updated=TO_DATE('2014-07-15 22:13:18','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=73980
+;
+
+-- 15/07/2014 10:13:27 PM CEST
+-- LVE-HR
+UPDATE AD_Field SET DisplayLogic=NULL, IsMandatory=NULL,Updated=TO_DATE('2014-07-15 22:13:27','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=73775
+;
+
+-- 15/07/2014 10:13:52 PM CEST
+-- LVE-HR
+UPDATE AD_Field SET DisplayLogic=NULL, IsMandatory=NULL,Updated=TO_DATE('2014-07-15 22:13:52','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=73985
+;
+
+-- 15/07/2014 10:13:59 PM CEST
+-- LVE-HR
+UPDATE AD_Field SET DisplayLogic=NULL, IsMandatory=NULL,Updated=TO_DATE('2014-07-15 22:13:59','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=73796
+;
+
+-- 15/07/2014 10:14:17 PM CEST
+-- LVE-HR
+UPDATE AD_Field SET DisplayLogic=NULL, IsMandatory=NULL,Updated=TO_DATE('2014-07-15 22:14:17','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=73989
+;
+
+-- 15/07/2014 10:14:27 PM CEST
+-- LVE-HR
+UPDATE AD_Field SET DisplayLogic=NULL, IsMandatory=NULL,Updated=TO_DATE('2014-07-15 22:14:27','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=73823
+;
+
+-- 15/07/2014 10:15:55 PM CEST
+-- LVE-HR
+INSERT INTO AD_Val_Rule (AD_Client_ID,AD_Org_ID,AD_Val_Rule_ID,Code,Created,CreatedBy,EntityType,IsActive,Name,Type,Updated,UpdatedBy) VALUES (0,0,52374,'LVE_HR_Provision.LVE_HR_ProvisionType_ID = @LVE_HR_ProvisionType_ID@',TO_DATE('2014-07-15 22:15:54','YYYY-MM-DD HH24:MI:SS'),100,'ECA02','Y','LVE_HR_Provision Provision from Provision Type','S',TO_DATE('2014-07-15 22:15:54','YYYY-MM-DD HH24:MI:SS'),100)
+;
+
+-- 15/07/2014 10:16:09 PM CEST
+-- LVE-HR
+UPDATE AD_Column SET AD_Val_Rule_ID=52374,Updated=TO_DATE('2014-07-15 22:16:09','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Column_ID=73300
+;
+
+-- 15/07/2014 10:26:03 PM CEST
+-- LVE-HR
+UPDATE AD_Column SET IsMandatory='Y',Updated=TO_DATE('2014-07-15 22:26:03','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Column_ID=73327
+;
+

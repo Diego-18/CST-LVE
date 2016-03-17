@@ -1,0 +1,18 @@
+
+
+#Run Scripts:
+
+psql.bin:/opt/Development/workspace/CST-STD/migration/003_FI/postgresql/0000Add_EntityType_SFAndroid_And_EntityType_Spin_postgresql.sql:9: ERROR:  duplicate key value violates unique constraint "ad_entitytype_pkey"
+DETAIL:  Key (entitytype)=(ECA02) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/003_FI/postgresql/021AddTableAndViewOFT_LVE_AccountStatementAndT_LVE_AccountStatementHeader.sql:319: ERROR:  duplicate key value violates unique constraint "ad_element_uppercolumnname"
+DETAIL:  Key (upper(columnname::text))=(LINEALBALANCE) already exists.
+ altercolumn 
+-------------
+ 
+(1 row)
+
+psql.bin:/opt/Development/workspace/CST-STD/migration/003_FI/postgresql/071AddColumnCBP_postgresql.sql:4: ERROR:  duplicate key value violates unique constraint "ad_column_name"
+DETAIL:  Key (ad_table_id, columnname)=(226, C_BPartner_ID) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/003_FI/postgresql/071AddColumnCBP_postgresql.sql:14: ERROR:  insert or update on table "ad_field" violates foreign key constraint "ad_column_field"
+DETAIL:  Key (ad_column_id)=(73689) is not present in table "ad_column".
+psql.bin:/opt/Development/workspace/CST-STD/migration/003_FI/postgresql/801Add_Columns_To_Default_Tables_postgresql.sql:14: ERROR:  column "c_bpartner_id" of relation "gl_journalline" already exists

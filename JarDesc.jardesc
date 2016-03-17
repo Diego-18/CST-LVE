@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="CST-LVE/packages/01-CST-LVE/lib/01-CST-LVE.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/CST-LVE/JarDesc.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <javaElement handleIdentifier="=CST-STD/patches"/>
+        <javaElement handleIdentifier="=CST-STD/base"/>
+        <javaElement handleIdentifier="=CST-STD/base-wh"/>
+        <javaElement handleIdentifier="=CST-STD/base-fi"/>
+        <javaElement handleIdentifier="=CST-STD/client"/>
+    </selectedElements>
+</jardesc>

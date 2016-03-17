@@ -1,0 +1,19 @@
+
+
+#Run Scripts:
+
+psql.bin:/opt/Development/workspace/CST-STD/migration/002_WH/postgresql/000AddEntityType_Spin_Contribution.sql:4: ERROR:  duplicate key value violates unique constraint "ad_entitytype_pkey"
+DETAIL:  Key (entitytype)=(ECA02) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/002_WH/postgresql/048AddColumnDocTypeDeclare.sql:109: ERROR:  duplicate key value violates unique constraint "ad_field_column"
+DETAIL:  Key (ad_tab_id, ad_column_id)=(167, 15806) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/002_WH/postgresql/106AddMessagesforWithholding.sql:4: ERROR:  duplicate key value violates unique constraint "ad_message_pkey"
+DETAIL:  Key (ad_message_id)=(53231) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/002_WH/postgresql/106AddMessagesforWithholding.sql:19: ERROR:  duplicate key value violates unique constraint "ad_message_pkey"
+DETAIL:  Key (ad_message_id)=(53232) already exists.
+ altercolumn 
+-------------
+ 
+(1 row)
+
+psql.bin:/opt/Development/workspace/CST-STD/migration/002_WH/postgresql/800AddTables_To_SGDB_postgresql.sql:49: ERROR:  relation "lve_wh_userdocsequence" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/002_WH/postgresql/800AddTables_To_SGDB_postgresql.sql:60: ERROR:  column "isprintsetcontrolno" of relation "lve_wh_userdocsequence" already exists

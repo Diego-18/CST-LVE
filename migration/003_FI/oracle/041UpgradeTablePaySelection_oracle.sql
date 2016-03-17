@@ -1,0 +1,5 @@
+-- 11/07/2014 11:41:39 AM VET
+-- LVE-EFT
+UPDATE AD_Column SET IsMandatory='N',Updated=TO_DATE('2014-07-11 11:41:39','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Column_ID=5639
+;
+

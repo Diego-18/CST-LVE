@@ -1,0 +1,20 @@
+-- 2/10/2013 10:04:18 AM VET
+-- LVE HR
+UPDATE AD_Column SET IsIdentifier='Y',Updated=TO_TIMESTAMP('2013-10-02 10:04:18','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Column_ID=58720
+;
+
+-- 2/10/2013 10:04:20 AM VET
+-- LVE HR
+UPDATE AD_Column SET IsSelectionColumn='Y',Updated=TO_TIMESTAMP('2013-10-02 10:04:20','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Column_ID=58720
+;
+
+-- 2/10/2013 10:04:32 AM VET
+-- LVE HR
+UPDATE AD_Column SET IsIdentifier='Y', IsSelectionColumn='Y',Updated=TO_TIMESTAMP('2013-10-02 10:04:32','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Column_ID=58727
+;
+
+-- 2/10/2013 10:04:39 AM VET
+-- LVE HR
+UPDATE AD_Column SET IsIdentifier='Y', IsSelectionColumn='Y',Updated=TO_TIMESTAMP('2013-10-02 10:04:39','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Column_ID=58728
+;
+

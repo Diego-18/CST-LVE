@@ -1,0 +1,35 @@
+-- Jan 18, 2015 6:06:52 PM EST
+-- HR Loan
+UPDATE AD_Column SET IsMandatory='Y',Updated=TO_DATE('2015-01-18 18:06:52','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Column_ID=75428
+;
+
+-- Jan 18, 2015 6:07:14 PM EST
+-- HR Loan
+UPDATE AD_Field SET DisplayLength=1,Updated=TO_DATE('2015-01-18 18:07:14','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=75303
+;
+
+-- Jan 18, 2015 6:07:44 PM EST
+-- HR Loan
+UPDATE AD_Column SET IsAlwaysUpdateable='N',Updated=TO_DATE('2015-01-18 18:07:44','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Column_ID=75431
+;
+
+-- Jan 18, 2015 6:08:00 PM EST
+-- HR Loan
+UPDATE AD_Field SET IsDisplayed='Y', SeqNo=50,Updated=TO_DATE('2015-01-18 18:08:00','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=75334
+;
+
+-- Jan 18, 2015 6:08:00 PM EST
+-- HR Loan
+UPDATE AD_Field SET IsDisplayed='Y', SeqNo=60,Updated=TO_DATE('2015-01-18 18:08:00','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=75324
+;
+
+-- Jan 18, 2015 6:08:10 PM EST
+-- HR Loan
+UPDATE AD_Field SET IsSameLine='N',Updated=TO_DATE('2015-01-18 18:08:10','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=75334
+;
+
+-- Jan 18, 2015 6:08:14 PM EST
+-- HR Loan
+UPDATE AD_Field SET IsSameLine='Y',Updated=TO_DATE('2015-01-18 18:08:14','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=75324
+;
+

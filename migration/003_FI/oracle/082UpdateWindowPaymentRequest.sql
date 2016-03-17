@@ -1,0 +1,170 @@
+-- Jul 23, 2014 10:28:40 AM VET
+-- LVE EFT
+UPDATE AD_Column SET ReadOnlyLogic='@DocStatus@ NOT IN (''CO'',''CL'',''VO'',''RE'')',Updated=TO_DATE('2014-07-23 10:28:40','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Column_ID=73317
+;
+
+-- Jul 23, 2014 10:29:06 AM VET
+-- LVE EFT
+UPDATE AD_Column SET ReadOnlyLogic='DocStatus NOT IN (''CO'',''CL'',''VO'',''RE'')',Updated=TO_DATE('2014-07-23 10:29:06','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Column_ID=73317
+;
+
+-- Jul 23, 2014 10:30:13 AM VET
+-- LVE EFT
+UPDATE AD_Column SET ReadOnlyLogic='@DocStatus@ ! ''CO'' | @DocStatus@ ! ''CL'' | @DocStatus@ ! ''VO'' | @DocStatus@ ! ''RE''',Updated=TO_DATE('2014-07-23 10:30:13','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Column_ID=73317
+;
+
+-- Jul 23, 2014 10:30:49 AM VET
+-- LVE EFT
+UPDATE AD_Column SET ReadOnlyLogic='@DocStatus@ ! ''CO'' | @DocStatus@ ! ''CL'' | @DocStatus@ ! ''VO''',Updated=TO_DATE('2014-07-23 10:30:49','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Column_ID=73317
+;
+
+-- Jul 23, 2014 10:31:16 AM VET
+-- LVE EFT
+UPDATE AD_Column SET ReadOnlyLogic='@DocStatus@ ! ''CO'' | @DocStatus@ ! ''CL'' ',Updated=TO_DATE('2014-07-23 10:31:16','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Column_ID=73317
+;
+
+-- Jul 23, 2014 10:31:43 AM VET
+-- LVE EFT
+UPDATE AD_Column SET ReadOnlyLogic='@DocStatus@ ! ''CO'' ',Updated=TO_DATE('2014-07-23 10:31:43','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Column_ID=73317
+;
+
+-- Jul 23, 2014 10:31:56 AM VET
+-- LVE EFT
+UPDATE AD_Column SET ReadOnlyLogic='@DocStatus@ = ''CO'' ',Updated=TO_DATE('2014-07-23 10:31:56','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Column_ID=73317
+;
+
+-- Jul 23, 2014 10:32:19 AM VET
+-- LVE EFT
+UPDATE AD_Column SET ReadOnlyLogic='@DocStatus@ = ''CO'' | @DocStatus@ = ''CL'' | @DocStatus@ = ''VO'' ',Updated=TO_DATE('2014-07-23 10:32:19','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Column_ID=73317
+;
+
+-- Jul 23, 2014 10:32:32 AM VET
+-- LVE EFT
+UPDATE AD_Column SET ReadOnlyLogic='@DocStatus@ = ''CO'' | @DocStatus@ = ''CL'' | @DocStatus@ = ''VO''  | @DocStatus@ = ''RE''',Updated=TO_DATE('2014-07-23 10:32:32','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Column_ID=73317
+;
+
+-- Jul 23, 2014 10:53:52 AM VET
+-- LVE EFT
+UPDATE AD_Field SET IsDisplayed='Y', SeqNo=70,Updated=TO_DATE('2014-07-23 10:53:52','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=73961
+;
+
+-- Jul 23, 2014 10:53:52 AM VET
+-- LVE EFT
+UPDATE AD_Field SET IsDisplayed='Y', SeqNo=80,Updated=TO_DATE('2014-07-23 10:53:52','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=73966
+;
+
+-- Jul 23, 2014 10:53:52 AM VET
+-- LVE EFT
+UPDATE AD_Field SET IsDisplayed='Y', SeqNo=90,Updated=TO_DATE('2014-07-23 10:53:52','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=73965
+;
+
+-- Jul 23, 2014 10:53:52 AM VET
+-- LVE EFT
+UPDATE AD_Field SET IsDisplayed='Y', SeqNo=100,Updated=TO_DATE('2014-07-23 10:53:52','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=73973
+;
+
+-- Jul 23, 2014 10:58:05 AM VET
+-- LVE EFT
+UPDATE AD_Field SET IsDisplayed='Y', SeqNo=80,Updated=TO_DATE('2014-07-23 10:58:05','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=73965
+;
+
+-- Jul 23, 2014 10:58:05 AM VET
+-- LVE EFT
+UPDATE AD_Field SET IsDisplayed='Y', SeqNo=90,Updated=TO_DATE('2014-07-23 10:58:05','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=73966
+;
+
+-- Jul 23, 2014 10:58:05 AM VET
+-- LVE EFT
+UPDATE AD_Field SET IsDisplayed='Y', SeqNo=100,Updated=TO_DATE('2014-07-23 10:58:05','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=73963
+;
+
+-- Jul 23, 2014 10:58:06 AM VET
+-- LVE EFT
+UPDATE AD_Field SET IsDisplayed='Y', SeqNo=110,Updated=TO_DATE('2014-07-23 10:58:06','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=73973
+;
+
+-- Jul 23, 2014 10:58:06 AM VET
+-- LVE EFT
+UPDATE AD_Field SET IsDisplayed='Y', SeqNo=120,Updated=TO_DATE('2014-07-23 10:58:06','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=73975
+;
+
+-- Jul 23, 2014 10:58:13 AM VET
+-- LVE EFT
+UPDATE AD_Field SET IsSameLine='Y',Updated=TO_DATE('2014-07-23 10:58:13','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=73965
+;
+
+-- Jul 23, 2014 10:58:18 AM VET
+-- LVE EFT
+UPDATE AD_Field SET IsSameLine='N',Updated=TO_DATE('2014-07-23 10:58:18','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=73973
+;
+
+-- Jul 23, 2014 10:59:22 AM VET
+-- LVE EFT
+UPDATE AD_Field SET IsDisplayed='Y', SeqNo=60,Updated=TO_DATE('2014-07-23 10:59:22','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=74024
+;
+
+-- Jul 23, 2014 10:59:22 AM VET
+-- LVE EFT
+UPDATE AD_Field SET IsDisplayed='Y', SeqNo=70,Updated=TO_DATE('2014-07-23 10:59:22','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=74027
+;
+
+-- Jul 23, 2014 10:59:22 AM VET
+-- LVE EFT
+UPDATE AD_Field SET IsDisplayed='Y', SeqNo=80,Updated=TO_DATE('2014-07-23 10:59:22','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=74023
+;
+
+-- Jul 23, 2014 10:59:22 AM VET
+-- LVE EFT
+UPDATE AD_Field SET IsDisplayed='Y', SeqNo=90,Updated=TO_DATE('2014-07-23 10:59:22','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=74090
+;
+
+-- Jul 23, 2014 10:59:28 AM VET
+-- LVE EFT
+UPDATE AD_Field SET IsSameLine='Y',Updated=TO_DATE('2014-07-23 10:59:28','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=74024
+;
+
+-- Jul 23, 2014 10:59:29 AM VET
+-- LVE EFT
+UPDATE AD_Field SET IsSameLine='Y',Updated=TO_DATE('2014-07-23 10:59:29','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=74027
+;
+
+-- Jul 23, 2014 10:59:31 AM VET
+-- LVE EFT
+UPDATE AD_Field SET IsSameLine='Y',Updated=TO_DATE('2014-07-23 10:59:31','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=74023
+;
+
+-- Jul 23, 2014 10:59:48 AM VET
+-- LVE EFT
+UPDATE AD_Field SET IsSameLine='N',Updated=TO_DATE('2014-07-23 10:59:48','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=74090
+;
+
+-- Jul 23, 2014 11:00:14 AM VET
+-- LVE EFT
+UPDATE AD_Field SET IsDisplayed='Y', SeqNo=30,Updated=TO_DATE('2014-07-23 11:00:14','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=74030
+;
+
+-- Jul 23, 2014 11:00:14 AM VET
+-- LVE EFT
+UPDATE AD_Field SET IsDisplayed='Y', SeqNo=40,Updated=TO_DATE('2014-07-23 11:00:14','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=74025
+;
+
+-- Jul 23, 2014 11:00:21 AM VET
+-- LVE EFT
+UPDATE AD_Field SET IsSameLine='N',Updated=TO_DATE('2014-07-23 11:00:21','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=74030
+;
+
+-- Jul 23, 2014 11:00:22 AM VET
+-- LVE EFT
+UPDATE AD_Field SET IsSameLine='Y',Updated=TO_DATE('2014-07-23 11:00:22','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=74025
+;
+
+-- Jul 23, 2014 11:01:09 AM VET
+-- LVE EFT
+UPDATE AD_Field SET AD_FieldGroup_ID=128,Updated=TO_DATE('2014-07-23 11:01:09','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=73973
+;
+
+-- Jul 23, 2014 11:01:26 AM VET
+-- LVE EFT
+UPDATE AD_Field SET AD_FieldGroup_ID=NULL,Updated=TO_DATE('2014-07-23 11:01:26','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=73973
+;
+

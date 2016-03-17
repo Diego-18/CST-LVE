@@ -1,0 +1,6 @@
+
+
+#Run Scripts:
+
+psql.bin:/opt/Development/workspace/CST-STD/migration/001_CST-STD/postgresql/0000AddEntityType_Spin_Contribution.sql:4: ERROR:  duplicate key value violates unique constraint "ad_entitytype_pkey"
+DETAIL:  Key (entitytype)=(ECA02) already exists.

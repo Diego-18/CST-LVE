@@ -1,0 +1,60 @@
+-- Sep 18, 2013 12:11:46 PM VET
+-- LVE-Import
+ALTER TABLE I_BPartner ADD BP_Birthday DATE DEFAULT NULL 
+;
+
+-- Sep 18, 2013 12:12:01 PM VET
+-- LVE-Import
+ALTER TABLE I_BPartner ADD Degree NVARCHAR2(2) DEFAULT NULL 
+;
+
+-- Sep 18, 2013 12:12:08 PM VET
+-- LVE-Import
+ALTER TABLE I_BPartner ADD EmployeeStatus NVARCHAR2(2) DEFAULT NULL 
+;
+
+-- Sep 18, 2013 12:12:13 PM VET
+-- LVE-Import
+ALTER TABLE I_BPartner ADD Gender CHAR(1) DEFAULT NULL 
+;
+
+-- Sep 18, 2013 12:12:19 PM VET
+-- LVE-Import
+ALTER TABLE I_BPartner ADD IsCAPTA CHAR(1) DEFAULT NULL  CHECK (IsCAPTA IN ('Y','N'))
+;
+
+-- Sep 18, 2013 12:12:24 PM VET
+-- LVE-Import
+ALTER TABLE I_BPartner ADD IsDepending CHAR(1) DEFAULT NULL  CHECK (IsDepending IN ('Y','N'))
+;
+
+-- Sep 18, 2013 12:12:30 PM VET
+-- LVE-Import
+ALTER TABLE I_BPartner ADD IsGrowthPlan CHAR(1) DEFAULT NULL  CHECK (IsGrowthPlan IN ('Y','N'))
+;
+
+-- Sep 18, 2013 12:12:36 PM VET
+-- LVE-Import
+ALTER TABLE I_BPartner ADD IsJubilate CHAR(1) DEFAULT NULL  CHECK (IsJubilate IN ('Y','N'))
+;
+
+-- Sep 18, 2013 12:12:40 PM VET
+-- LVE-Import
+ALTER TABLE I_BPartner ADD IsScholarship CHAR(1) DEFAULT NULL  CHECK (IsScholarship IN ('Y','N'))
+;
+
+-- Sep 18, 2013 12:12:46 PM VET
+-- LVE-Import
+ALTER TABLE I_BPartner ADD IsUnionized CHAR(1) DEFAULT NULL  CHECK (IsUnionized IN ('Y','N'))
+;
+
+-- Sep 18, 2013 12:12:52 PM VET
+-- LVE-Import
+ALTER TABLE I_BPartner ADD Relationship NVARCHAR2(2) DEFAULT NULL 
+;
+
+-- Sep 18, 2013 12:12:58 PM VET
+-- LVE-Import
+ALTER TABLE I_BPartner ADD Turn NVARCHAR2(2) DEFAULT NULL 
+;
+

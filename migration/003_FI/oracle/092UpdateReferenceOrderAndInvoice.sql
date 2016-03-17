@@ -1,0 +1,10 @@
+-- 31/07/2014 12:17:28 PM UTC
+-- LVE EFT
+UPDATE AD_Column SET AD_Reference_ID=18, AD_Reference_Value_ID=290,Updated=TO_DATE('2014-07-31 12:17:28','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Column_ID=73875
+;
+
+-- 31/07/2014 12:17:43 PM UTC
+-- LVE EFT
+UPDATE AD_Column SET AD_Reference_ID=18, AD_Reference_Value_ID=336,Updated=TO_DATE('2014-07-31 12:17:43','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Column_ID=73874
+;
+

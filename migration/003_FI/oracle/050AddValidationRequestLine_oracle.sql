@@ -1,0 +1,35 @@
+-- 14/07/2014 11:34:54 AM VET
+-- LVE-EFT
+UPDATE AD_Tab SET SeqNo=20, TabLevel=1,Updated=TO_DATE('2014-07-14 11:34:54','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Tab_ID=53979
+;
+
+-- 14/07/2014 11:36:08 AM VET
+-- LVE-EFT
+UPDATE AD_Field SET DisplayLogic=NULL,Updated=TO_DATE('2014-07-14 11:36:08','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=73976
+;
+
+-- 14/07/2014 11:36:18 AM VET
+-- LVE-EFT
+UPDATE AD_Field SET DisplayLogic='@RequestType@=''GLJ''',Updated=TO_DATE('2014-07-14 11:36:18','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=73963
+;
+
+-- 14/07/2014 11:36:49 AM VET
+-- LVE-EFT
+UPDATE AD_Field SET DisplayLogic='@RequestType@=''API''',Updated=TO_DATE('2014-07-14 11:36:49','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=74027
+;
+
+-- 14/07/2014 11:37:31 AM VET
+-- LVE-EFT
+UPDATE AD_Field SET DisplayLogic='@RequestType@=''POO''',Updated=TO_DATE('2014-07-14 11:37:31','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=74027
+;
+
+-- 14/07/2014 11:37:42 AM VET
+-- LVE-EFT
+UPDATE AD_Field SET DisplayLogic='@RequestType@=''API''',Updated=TO_DATE('2014-07-14 11:37:42','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=74023
+;
+
+-- 14/07/2014 11:38:06 AM VET
+-- LVE-EFT
+UPDATE AD_Field SET DisplayLogic='@RequestType@=''GLJ''',Updated=TO_DATE('2014-07-14 11:38:06','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Field_ID=74024
+;
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk8"/>
+	<classpathentry excluding="wh/|basefi/" kind="src" path="base"/>
+	<classpathentry kind="src" path="base-hr"/>
+	<classpathentry kind="src" path="base-fi"/>
+	<classpathentry kind="src" path="base-wh"/>
+	<classpathentry excluding="sb/" kind="src" path="client"/>
+	<classpathentry kind="src" path="patches"/>
+	<classpathentry kind="src" path="zkwebui/WEB-INF/src"/>
+	<classpathentry kind="lib" path="JasperReportsTools/lib/groovy-all-2.0.1.jar"/>
+	<classpathentry kind="lib" path="JasperReportsTools/lib/jasperreports-5.5.0.jar"/>
+	<classpathentry kind="lib" path="JasperReportsTools/lib/poi-3.7-20101029.jar"/>
+	<classpathentry kind="lib" path="JasperReportsTools/lib/servlet-api-2.4.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/adempiere_380"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,75 @@
+-- 1/10/2013 08:08:56 PM VET
+-- LVE HR
+INSERT INTO AD_Menu (Action,AD_Client_ID,AD_Menu_ID,AD_Org_ID,AD_Process_ID,Created,CreatedBy,EntityType,IsActive,IsCentrallyMaintained,IsReadOnly,IsSOTrx,IsSummary,Name,Updated,UpdatedBy) VALUES ('R',0,53642,0,53478,TO_DATE('2013-10-01 20:08:55','YYYY-MM-DD HH24:MI:SS'),100,'ECA02','Y','Y','N','N','N','Payroll Detail',TO_DATE('2013-10-01 20:08:55','YYYY-MM-DD HH24:MI:SS'),100)
+;
+
+-- 1/10/2013 08:08:56 PM VET
+-- LVE HR
+INSERT INTO AD_Menu_Trl (AD_Language,AD_Menu_ID, Description,Name, IsTranslated,AD_Client_ID,AD_Org_ID,Created,Createdby,Updated,UpdatedBy) SELECT l.AD_Language,t.AD_Menu_ID, t.Description,t.Name, 'N',t.AD_Client_ID,t.AD_Org_ID,t.Created,t.Createdby,t.Updated,t.UpdatedBy FROM AD_Language l, AD_Menu t WHERE l.IsActive='Y' AND l.IsSystemLanguage='Y' AND l.IsBaseLanguage='N' AND t.AD_Menu_ID=53642 AND NOT EXISTS (SELECT * FROM AD_Menu_Trl tt WHERE tt.AD_Language=l.AD_Language AND tt.AD_Menu_ID=t.AD_Menu_ID)
+;
+
+-- 1/10/2013 08:08:56 PM VET
+-- LVE HR
+INSERT INTO AD_TreeNodeMM (AD_Client_ID,AD_Org_ID,AD_Tree_ID,Created,CreatedBy,IsActive,Node_ID,Parent_ID,SeqNo,Updated,UpdatedBy) VALUES (0,0,10,TO_DATE('2013-10-01 20:08:56','YYYY-MM-DD HH24:MI:SS'),100,'Y',53642,0,999,TO_DATE('2013-10-01 20:08:56','YYYY-MM-DD HH24:MI:SS'),100)
+;
+
+-- 1/10/2013 08:08:59 PM VET
+-- LVE HR
+UPDATE AD_TreeNodeMM SET Parent_ID=53108, SeqNo=0,Updated=TO_DATE('2013-10-01 20:08:59','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Tree_ID=10 AND Node_ID=53642
+;
+
+-- 1/10/2013 08:08:59 PM VET
+-- LVE HR
+UPDATE AD_TreeNodeMM SET Parent_ID=53108, SeqNo=2,Updated=TO_DATE('2013-10-01 20:08:59','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Tree_ID=10 AND Node_ID=531
+;
+
+-- 1/10/2013 08:08:59 PM VET
+-- LVE HR
+UPDATE AD_TreeNodeMM SET Parent_ID=53108, SeqNo=3,Updated=TO_DATE('2013-10-01 20:08:59','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Tree_ID=10 AND Node_ID=530
+;
+
+-- 1/10/2013 08:09:02 PM VET
+-- LVE HR
+UPDATE AD_TreeNodeMM SET Parent_ID=53114, SeqNo=0,Updated=TO_DATE('2013-10-01 20:09:02','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Tree_ID=10 AND Node_ID=53642
+;
+
+-- 1/10/2013 08:09:04 PM VET
+-- LVE HR
+UPDATE AD_TreeNodeMM SET Parent_ID=53607, SeqNo=0,Updated=TO_DATE('2013-10-01 20:09:04','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Tree_ID=10 AND Node_ID=53642
+;
+
+-- 1/10/2013 08:09:04 PM VET
+-- LVE HR
+UPDATE AD_TreeNodeMM SET Parent_ID=53607, SeqNo=1,Updated=TO_DATE('2013-10-01 20:09:04','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Tree_ID=10 AND Node_ID=53641
+;
+
+-- 1/10/2013 08:09:04 PM VET
+-- LVE HR
+UPDATE AD_TreeNodeMM SET Parent_ID=53607, SeqNo=2,Updated=TO_DATE('2013-10-01 20:09:04','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Tree_ID=10 AND Node_ID=53632
+;
+
+-- 1/10/2013 08:09:04 PM VET
+-- LVE HR
+UPDATE AD_TreeNodeMM SET Parent_ID=53607, SeqNo=3,Updated=TO_DATE('2013-10-01 20:09:04','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Tree_ID=10 AND Node_ID=53640
+;
+
+-- 1/10/2013 08:09:04 PM VET
+-- LVE HR
+UPDATE AD_TreeNodeMM SET Parent_ID=53607, SeqNo=4,Updated=TO_DATE('2013-10-01 20:09:04','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Tree_ID=10 AND Node_ID=53608
+;
+
+-- 1/10/2013 08:09:04 PM VET
+-- LVE HR
+UPDATE AD_TreeNodeMM SET Parent_ID=53607, SeqNo=5,Updated=TO_DATE('2013-10-01 20:09:04','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Tree_ID=10 AND Node_ID=53635
+;
+
+-- 1/10/2013 08:09:04 PM VET
+-- LVE HR
+UPDATE AD_TreeNodeMM SET Parent_ID=53607, SeqNo=6,Updated=TO_DATE('2013-10-01 20:09:04','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Tree_ID=10 AND Node_ID=53634
+;
+
+-- 1/10/2013 08:09:14 PM VET
+-- LVE HR
+UPDATE AD_Process_Trl SET Name='Detalle de Pagos',Updated=TO_DATE('2013-10-01 20:09:14','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Process_ID=53478 AND AD_Language='es_MX'
+;
+

@@ -1,0 +1,10 @@
+-- May 25, 2014 5:44:20 AM VET
+-- LVE HR
+UPDATE AD_Process SET Value='LVE_RV_HR_ProcessSummary ProcessSummary',Updated=TO_DATE('2014-05-25 05:44:20','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Process_ID=53632
+;
+
+-- May 25, 2014 5:44:40 AM VET
+-- LVE HR
+UPDATE AD_Menu SET AD_Process_ID=53632,Updated=TO_DATE('2014-05-25 05:44:40','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Menu_ID=53831
+;
+

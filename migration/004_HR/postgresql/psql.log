@@ -1,0 +1,621 @@
+
+
+#Run Scripts:
+
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:9: ERROR:  duplicate key value violates unique constraint "ad_window_pkey"
+DETAIL:  Key (ad_window_id)=(53103) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:19: ERROR:  duplicate key value violates unique constraint "ad_table_pkey"
+DETAIL:  Key (ad_table_id)=(53248) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:29: ERROR:  duplicate key value violates unique constraint "ad_sequence_pkey"
+DETAIL:  Key (ad_sequence_id)=(53358) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:34: ERROR:  duplicate key value violates unique constraint "ad_element_pkey"
+DETAIL:  Key (ad_element_id)=(54089) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:54: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58693) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:64: ERROR:  relation "hr_payselection" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:94: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58694) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:104: ERROR:  column "ad_client_id" of relation "hr_payselection" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:119: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58695) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:129: ERROR:  column "ad_org_id" of relation "hr_payselection" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:160: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58696) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:170: ERROR:  column "isactive" of relation "hr_payselection" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:195: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58697) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:205: ERROR:  column "created" of relation "hr_payselection" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:220: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58698) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:230: ERROR:  column "updated" of relation "hr_payselection" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:260: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58699) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:270: ERROR:  column "createdby" of relation "hr_payselection" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:285: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58700) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:295: ERROR:  column "updatedby" of relation "hr_payselection" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:310: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58701) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:320: ERROR:  column "c_bankaccount_id" of relation "hr_payselection" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:345: ERROR:  duplicate key value violates unique constraint "ad_process_pkey"
+DETAIL:  Key (ad_process_id)=(53190) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:355: ERROR:  duplicate key value violates unique constraint "ad_process_para_pkey"
+DETAIL:  Key (ad_process_para_id)=(53365) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:366: ERROR:  duplicate key value violates unique constraint "ad_val_rule_pkey"
+DETAIL:  Key (ad_val_rule_id)=(52072) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:371: ERROR:  duplicate key value violates unique constraint "ad_process_para_pkey"
+DETAIL:  Key (ad_process_para_id)=(53366) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:381: ERROR:  duplicate key value violates unique constraint "ad_process_para_pkey"
+DETAIL:  Key (ad_process_para_id)=(53367) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:401: ERROR:  duplicate key value violates unique constraint "ad_val_rule_pkey"
+DETAIL:  Key (ad_val_rule_id)=(52073) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:406: ERROR:  duplicate key value violates unique constraint "ad_process_para_pkey"
+DETAIL:  Key (ad_process_para_id)=(53368) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:506: ERROR:  duplicate key value violates unique constraint "ad_process_para_pkey"
+DETAIL:  Key (ad_process_para_id)=(53369) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:516: ERROR:  duplicate key value violates unique constraint "ad_val_rule_pkey"
+DETAIL:  Key (ad_val_rule_id)=(52074) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:521: ERROR:  duplicate key value violates unique constraint "ad_process_para_pkey"
+DETAIL:  Key (ad_process_para_id)=(53370) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:531: ERROR:  duplicate key value violates unique constraint "ad_val_rule_pkey"
+DETAIL:  Key (ad_val_rule_id)=(52075) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:536: ERROR:  duplicate key value violates unique constraint "ad_process_para_pkey"
+DETAIL:  Key (ad_process_para_id)=(53371) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:546: ERROR:  duplicate key value violates unique constraint "ad_process_para_pkey"
+DETAIL:  Key (ad_process_para_id)=(53372) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:556: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58702) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:566: ERROR:  column "createfrom" of relation "hr_payselection" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:591: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58703) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:601: ERROR:  column "description" of relation "hr_payselection" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:616: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58704) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:626: ERROR:  column "isapproved" of relation "hr_payselection" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:641: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58705) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:651: ERROR:  column "name" of relation "hr_payselection" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:676: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58706) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:686: ERROR:  column "paydate" of relation "hr_payselection" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:701: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58707) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:711: ERROR:  column "processed" of relation "hr_payselection" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:726: ERROR:  duplicate key value violates unique constraint "ad_process_pkey"
+DETAIL:  Key (ad_process_id)=(53191) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:736: ERROR:  duplicate key value violates unique constraint "ad_process_para_pkey"
+DETAIL:  Key (ad_process_para_id)=(53373) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:746: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58708) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:756: ERROR:  column "processing" of relation "hr_payselection" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:781: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58709) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:791: ERROR:  column "totalamt" of relation "hr_payselection" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:796: ERROR:  duplicate key value violates unique constraint "ad_tab_pkey"
+DETAIL:  Key (ad_tab_id)=(53293) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:806: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58468) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:816: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58469) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:826: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58470) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:836: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58471) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:846: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58472) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:859: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58473) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:869: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58474) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:879: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58475) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:889: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58476) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:899: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58477) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:909: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58478) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:919: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58479) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:929: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58480) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:939: ERROR:  duplicate key value violates unique constraint "ad_table_pkey"
+DETAIL:  Key (ad_table_id)=(53249) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:949: ERROR:  duplicate key value violates unique constraint "ad_sequence_pkey"
+DETAIL:  Key (ad_sequence_id)=(53359) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:954: ERROR:  duplicate key value violates unique constraint "ad_element_pkey"
+DETAIL:  Key (ad_element_id)=(54090) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:964: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58710) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:974: ERROR:  relation "hr_payselectionline" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:979: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58711) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:989: ERROR:  column "ad_client_id" of relation "hr_payselectionline" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:994: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58712) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1004: ERROR:  column "ad_org_id" of relation "hr_payselectionline" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1012: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58713) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1022: ERROR:  column "isactive" of relation "hr_payselectionline" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1027: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58714) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1037: ERROR:  column "created" of relation "hr_payselectionline" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1042: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58715) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1052: ERROR:  column "updated" of relation "hr_payselectionline" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1057: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58716) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1067: ERROR:  column "createdby" of relation "hr_payselectionline" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1072: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58717) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1082: ERROR:  column "updatedby" of relation "hr_payselectionline" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1087: ERROR:  duplicate key value violates unique constraint "ad_element_pkey"
+DETAIL:  Key (ad_element_id)=(54091) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1097: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58718) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1107: ERROR:  column "hr_payselectioncheck_id" of relation "hr_payselectionline" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1112: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58719) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1122: ERROR:  column "hr_payselection_id" of relation "hr_payselectionline" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1127: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58720) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1137: ERROR:  column "description" of relation "hr_payselectionline" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1152: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58721) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1162: ERROR:  column "differenceamt" of relation "hr_payselectionline" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1177: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58722) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1187: ERROR:  column "discountamt" of relation "hr_payselectionline" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1202: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58723) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1212: ERROR:  column "ismanual" of relation "hr_payselectionline" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1227: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58724) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1237: ERROR:  column "issotrx" of relation "hr_payselectionline" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1262: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58725) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1272: ERROR:  column "line" of relation "hr_payselectionline" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1287: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58726) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1297: ERROR:  column "openamt" of relation "hr_payselectionline" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1312: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58727) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1322: ERROR:  column "payamt" of relation "hr_payselectionline" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1342: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58728) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1352: ERROR:  column "paymentrule" of relation "hr_payselectionline" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1357: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58729) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1367: ERROR:  column "processed" of relation "hr_payselectionline" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1382: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58730) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1392: ERROR:  column "hr_movement_id" of relation "hr_payselectionline" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1397: ERROR:  duplicate key value violates unique constraint "ad_tab_pkey"
+DETAIL:  Key (ad_tab_id)=(53294) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1407: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58481) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1417: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58482) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1427: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58483) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1437: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58484) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1447: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58485) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1457: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58486) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1467: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58487) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1477: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58488) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1487: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58489) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1497: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58490) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1507: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58491) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1517: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58492) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1530: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58493) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1540: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58494) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1550: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58495) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1560: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58496) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1570: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58497) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1580: ERROR:  duplicate key value violates unique constraint "ad_table_pkey"
+DETAIL:  Key (ad_table_id)=(53250) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1590: ERROR:  duplicate key value violates unique constraint "ad_sequence_pkey"
+DETAIL:  Key (ad_sequence_id)=(53360) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1595: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58731) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1605: ERROR:  relation "hr_payselectioncheck" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1610: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58732) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1620: ERROR:  column "ad_client_id" of relation "hr_payselectioncheck" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1625: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58733) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1635: ERROR:  column "ad_org_id" of relation "hr_payselectioncheck" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1643: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58734) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1653: ERROR:  column "isactive" of relation "hr_payselectioncheck" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1658: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58735) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1668: ERROR:  column "created" of relation "hr_payselectioncheck" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1673: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58736) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1683: ERROR:  column "updated" of relation "hr_payselectioncheck" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1688: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58737) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1698: ERROR:  column "createdby" of relation "hr_payselectioncheck" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1703: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58738) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1713: ERROR:  column "updatedby" of relation "hr_payselectioncheck" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1733: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58739) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1743: ERROR:  column "c_bp_bankaccount_id" of relation "hr_payselectioncheck" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1763: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58740) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1773: ERROR:  column "c_bpartner_id" of relation "hr_payselectioncheck" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1778: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58741) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1788: ERROR:  column "hr_payselection_id" of relation "hr_payselectioncheck" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1818: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58742) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1828: ERROR:  column "c_payment_id" of relation "hr_payselectioncheck" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1833: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58743) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1843: ERROR:  column "discountamt" of relation "hr_payselectioncheck" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1858: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58744) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1868: ERROR:  column "isgenerateddraft" of relation "hr_payselectioncheck" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1883: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58745) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1893: ERROR:  column "isprinted" of relation "hr_payselectioncheck" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1908: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58746) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1918: ERROR:  column "isreceipt" of relation "hr_payselectioncheck" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1923: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58747) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1933: ERROR:  column "payamt" of relation "hr_payselectioncheck" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1943: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58748) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1953: ERROR:  column "paymentrule" of relation "hr_payselectioncheck" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1958: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58749) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1968: ERROR:  column "processed" of relation "hr_payselectioncheck" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1983: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58750) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:1993: ERROR:  column "qty" of relation "hr_payselectioncheck" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2012: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58751) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2022: ERROR:  column "documentno" of relation "hr_payselectioncheck" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2027: ERROR:  duplicate key value violates unique constraint "ad_tab_pkey"
+DETAIL:  Key (ad_tab_id)=(53295) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2040: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58498) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2050: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58499) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2060: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58500) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2070: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58501) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2080: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58502) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2090: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58503) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2100: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58504) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2110: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58505) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2122: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58506) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2132: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58507) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2142: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58508) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2152: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58509) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2162: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58510) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2172: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58511) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2182: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58512) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2192: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58513) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2202: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58514) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2212: ERROR:  duplicate key value violates unique constraint "ad_form_pkey"
+DETAIL:  Key (ad_form_id)=(53014) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2222: ERROR:  duplicate key value violates unique constraint "ad_table_pkey"
+DETAIL:  Key (ad_table_id)=(53251) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2232: ERROR:  duplicate key value violates unique constraint "ad_sequence_pkey"
+DETAIL:  Key (ad_sequence_id)=(53361) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2237: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58752) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2247: ERROR:  relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2252: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58753) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2262: ERROR:  column "ad_org_id" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2277: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58754) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2287: ERROR:  column "ad_language" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2302: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58755) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2312: ERROR:  column "c_payselection_id" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2327: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58756) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2337: ERROR:  column "c_payselectioncheck_id" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2377: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58757) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2387: ERROR:  column "org_location_id" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2402: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58758) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2412: ERROR:  column "taxid" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2427: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58759) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2437: ERROR:  column "c_doctype_id" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2442: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58760) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2452: ERROR:  column "c_bpartner_id" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2467: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58761) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2477: ERROR:  column "bpvalue" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2492: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58762) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2502: ERROR:  column "bptaxid" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2517: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58763) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2527: ERROR:  column "naics" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2542: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58764) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2552: ERROR:  column "duns" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2567: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58765) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2577: ERROR:  column "bpgreeting" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2582: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58766) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2592: ERROR:  column "name" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2607: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58767) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2617: ERROR:  column "name2" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2642: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58768) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2652: ERROR:  column "c_location_id" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2667: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58769) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2677: ERROR:  column "referenceno" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2692: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58770) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2702: ERROR:  column "poreference" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2707: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58771) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2717: ERROR:  column "paydate" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2722: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58772) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2732: ERROR:  column "payamt" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2747: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58773) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2757: ERROR:  column "amtinwords" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2772: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58774) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2782: ERROR:  column "qty" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2787: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58775) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2797: ERROR:  column "paymentrule" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2804: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58776) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2814: ERROR:  column "documentno" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2819: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58777) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2829: ERROR:  column "hr_payselection_id" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2834: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58778) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2844: ERROR:  column "hr_payselectioncheck_id" of relation "c_hr_payselection_check_v" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2859: ERROR:  duplicate key value violates unique constraint "ad_menu_pkey"
+DETAIL:  Key (ad_menu_id)=(53254) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2869: ERROR:  duplicate key value violates unique constraint "ad_treenodemm_pkey"
+DETAIL:  Key (ad_tree_id, node_id)=(10, 53254) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2874: ERROR:  duplicate key value violates unique constraint "ad_menu_pkey"
+DETAIL:  Key (ad_menu_id)=(53255) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2884: ERROR:  duplicate key value violates unique constraint "ad_treenodemm_pkey"
+DETAIL:  Key (ad_tree_id, node_id)=(10, 53255) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2889: ERROR:  duplicate key value violates unique constraint "ad_val_rule_pkey"
+DETAIL:  Key (ad_val_rule_id)=(52076) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2894: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58779) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2904: ERROR:  column "c_invoice_id" of relation "hr_attribute" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2909: ERROR:  duplicate key value violates unique constraint "ad_val_rule_pkey"
+DETAIL:  Key (ad_val_rule_id)=(52077) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2914: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58780) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2924: ERROR:  column "c_doctype_id" of relation "hr_attribute" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2929: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58781) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2939: ERROR:  column "c_charge_id" of relation "hr_attribute" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2944: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58782) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2954: ERROR:  column "isinvoiced" of relation "hr_concept" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2959: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58515) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2969: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58516) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2979: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58517) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2989: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58518) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000736_FR_3015702_HR_PaySelection.sql:2999: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58519) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000757_BF3090030_PayrollDictionaryFixes.sql:41: ERROR:  duplicate key value violates unique constraint "ad_val_rule_pkey"
+DETAIL:  Key (ad_val_rule_id)=(52096) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000757_BF3090030_PayrollDictionaryFixes.sql:50: ERROR:  duplicate key value violates unique constraint "ad_val_rule_pkey"
+DETAIL:  Key (ad_val_rule_id)=(52097) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:4: ERROR:  duplicate key value violates unique constraint "ad_window_pkey"
+DETAIL:  Key (ad_window_id)=(53108) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:14: ERROR:  duplicate key value violates unique constraint "ad_table_pkey"
+DETAIL:  Key (ad_table_id)=(53259) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:24: ERROR:  duplicate key value violates unique constraint "ad_sequence_pkey"
+DETAIL:  Key (ad_sequence_id)=(53368) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:29: ERROR:  duplicate key value violates unique constraint "ad_element_pkey"
+DETAIL:  Key (ad_element_id)=(54113) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:39: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58951) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:49: ERROR:  relation "i_hr_movement" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:54: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58952) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:64: ERROR:  column "ad_client_id" of relation "i_hr_movement" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:69: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58953) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:79: ERROR:  column "ad_org_id" of relation "i_hr_movement" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:84: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58954) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:94: ERROR:  column "amount" of relation "i_hr_movement" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:99: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58955) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:109: ERROR:  column "c_bpartner_id" of relation "i_hr_movement" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:114: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58956) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:124: ERROR:  column "created" of relation "i_hr_movement" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:129: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58957) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:139: ERROR:  column "createdby" of relation "i_hr_movement" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:144: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58958) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:154: ERROR:  column "hr_concept_id" of relation "i_hr_movement" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:159: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58959) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:169: ERROR:  column "hr_process_id" of relation "i_hr_movement" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:177: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58960) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:187: ERROR:  column "isactive" of relation "i_hr_movement" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:192: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58961) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:202: ERROR:  column "processed" of relation "i_hr_movement" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:207: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58962) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:217: ERROR:  column "qty" of relation "i_hr_movement" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:222: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58963) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:232: ERROR:  column "servicedate" of relation "i_hr_movement" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:237: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58964) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:247: ERROR:  column "textmsg" of relation "i_hr_movement" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:252: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58965) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:262: ERROR:  column "updated" of relation "i_hr_movement" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:267: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58966) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:277: ERROR:  column "updatedby" of relation "i_hr_movement" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:282: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58967) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:292: ERROR:  column "validfrom" of relation "i_hr_movement" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:297: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58968) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:307: ERROR:  column "i_isimported" of relation "i_hr_movement" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:312: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58969) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:322: ERROR:  column "i_errormsg" of relation "i_hr_movement" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:327: ERROR:  duplicate key value violates unique constraint "ad_process_pkey"
+DETAIL:  Key (ad_process_id)=(53197) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:337: ERROR:  duplicate key value violates unique constraint "ad_process_para_pkey"
+DETAIL:  Key (ad_process_para_id)=(53401) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:347: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58970) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:357: ERROR:  column "processing" of relation "i_hr_movement" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:362: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58971) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:372: ERROR:  column "bpartner_value" of relation "i_hr_movement" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:377: ERROR:  duplicate key value violates unique constraint "ad_element_pkey"
+DETAIL:  Key (ad_element_id)=(54114) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:387: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58972) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:397: ERROR:  column "conceptvalue" of relation "i_hr_movement" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:402: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58973) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:412: ERROR:  column "hr_movement_id" of relation "i_hr_movement" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:417: ERROR:  duplicate key value violates unique constraint "ad_element_pkey"
+DETAIL:  Key (ad_element_id)=(54115) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:427: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58974) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:437: ERROR:  column "processname" of relation "i_hr_movement" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:442: ERROR:  duplicate key value violates unique constraint "ad_column_pkey"
+DETAIL:  Key (ad_column_id)=(58975) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:452: ERROR:  column "description" of relation "i_hr_movement" already exists
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:457: ERROR:  duplicate key value violates unique constraint "ad_tab_pkey"
+DETAIL:  Key (ad_tab_id)=(53306) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:467: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58704) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:480: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58705) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:490: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58706) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:500: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58707) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:510: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58708) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:520: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58709) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:530: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58710) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:540: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58711) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:550: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58712) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:560: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58713) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:570: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58714) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:580: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58715) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:590: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58716) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:600: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58717) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:610: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58718) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:620: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58719) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:630: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58720) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:640: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58721) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:650: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58722) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:660: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58723) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:670: ERROR:  duplicate key value violates unique constraint "ad_field_pkey"
+DETAIL:  Key (ad_field_id)=(58724) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:680: ERROR:  duplicate key value violates unique constraint "ad_impformat_pkey"
+DETAIL:  Key (ad_impformat_id)=(50002) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:685: ERROR:  duplicate key value violates unique constraint "ad_impformat_row_pkey"
+DETAIL:  Key (ad_impformat_row_id)=(50077) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:690: ERROR:  duplicate key value violates unique constraint "ad_impformat_row_pkey"
+DETAIL:  Key (ad_impformat_row_id)=(50078) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:695: ERROR:  duplicate key value violates unique constraint "ad_impformat_row_pkey"
+DETAIL:  Key (ad_impformat_row_id)=(50079) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:700: ERROR:  duplicate key value violates unique constraint "ad_impformat_row_pkey"
+DETAIL:  Key (ad_impformat_row_id)=(50080) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:705: ERROR:  duplicate key value violates unique constraint "ad_impformat_row_pkey"
+DETAIL:  Key (ad_impformat_row_id)=(50081) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:710: ERROR:  duplicate key value violates unique constraint "ad_impformat_row_pkey"
+DETAIL:  Key (ad_impformat_row_id)=(50082) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:715: ERROR:  duplicate key value violates unique constraint "ad_impformat_row_pkey"
+DETAIL:  Key (ad_impformat_row_id)=(50083) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:720: ERROR:  duplicate key value violates unique constraint "ad_impformat_row_pkey"
+DETAIL:  Key (ad_impformat_row_id)=(50084) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:725: ERROR:  duplicate key value violates unique constraint "ad_impformat_row_pkey"
+DETAIL:  Key (ad_impformat_row_id)=(50085) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:730: ERROR:  duplicate key value violates unique constraint "ad_menu_pkey"
+DETAIL:  Key (ad_menu_id)=(53263) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000758_FR2878276_ImportPayroll.sql:740: ERROR:  duplicate key value violates unique constraint "ad_treenodemm_pkey"
+DETAIL:  Key (ad_tree_id, node_id)=(10, 53263) already exists.
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000760_BF3094982_ChangeColumns.sql:1: ERROR:  column "isreadwrite" does not exist
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000760_BF3094982_ChangeColumns.sql:2: ERROR:  column "isregistered" does not exist
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/000760_BF3094982_ChangeColumns.sql:3: ERROR:  column "isregistered" does not exist
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/999AddUniqueKeys.sql:9: NOTICE:  index "uk_lve_hr_p_combination_hr_department_pp" does not exist, skipping
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/999AddUniqueKeys.sql:10: NOTICE:  index "uk_lve_hr_p_combination_hr_job_pp" does not exist, skipping
+psql.bin:/opt/Development/workspace/CST-STD/migration/004_HR/postgresql/999AddUniqueKeys.sql:11: NOTICE:  index "uk_lve_hr_p_combination_c_bpartner_pp" does not exist, skipping

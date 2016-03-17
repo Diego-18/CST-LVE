@@ -1,0 +1,20 @@
+-- Nov 27, 2014 6:55:53 PM VET
+-- LVE EFT
+UPDATE AD_Browse_Field SET IsOrderBy='Y', SortNo=20,Updated=TO_TIMESTAMP('2014-11-27 18:55:53','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Browse_Field_ID=53692
+;
+
+-- Nov 27, 2014 6:55:53 PM VET
+-- LVE EFT
+UPDATE AD_Browse_Field SET IsOrderBy='Y', SortNo=30,Updated=TO_TIMESTAMP('2014-11-27 18:55:53','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Browse_Field_ID=53880
+;
+
+-- Nov 27, 2014 6:58:38 PM VET
+-- LVE EFT
+UPDATE AD_Browse_Field SET AD_Reference_ID=22,Updated=TO_TIMESTAMP('2014-11-27 18:58:38','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Browse_Field_ID=53986
+;
+
+-- Nov 27, 2014 6:58:43 PM VET
+-- LVE EFT
+UPDATE AD_Browse_Field SET AD_Reference_ID=22,Updated=TO_TIMESTAMP('2014-11-27 18:58:43','YYYY-MM-DD HH24:MI:SS'),UpdatedBy=100 WHERE AD_Browse_Field_ID=53987
+;
+
